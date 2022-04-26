@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Sample msg="テスト用の編集"/>
+    <Sample msg="テスト用のサンプル文字"/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <!--<List /> -->
   </div>
