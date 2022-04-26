@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Sample msg="テスト用のサンプル文字"/>
+    <SampleTest msg="テスト用のサンプル文字"/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <!--<List /> -->
   </div>
@@ -9,13 +9,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Sample from './components/Sample.vue'
+import SampleTest from './components/Sample.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Sample
+    SampleTest
   }
 }
 </script>
