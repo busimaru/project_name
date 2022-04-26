@@ -1,0 +1,19 @@
+#docker-composeのバージョンを指定
+version: "3.8"
+
+services:
+  #RAILS(API側のコンテナ)
+  #フロント側のコンテナ
+  front:
+    container_name: front 
+    build: ./front
+    ports:
+      - "8080:8080"
+    privileged: true
+    volumes:
+      - ./front:/app:cached
+    #cachedオプションによって、ホストの更新の前に、コンテナ側の遅延が許容される
+    tty: true
+    stdin_open: true
+    #シェルスクリプトの実行(必要に応じでシェルスクリプトを作成する必要あり？)
+    command: /bin/sh
