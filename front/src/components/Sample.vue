@@ -1,14 +1,8 @@
 <template>
-    <h1>{{ msg }}</h1>
+  <h1>サンプルページです</h1>
 </template>
 
 <script>
-export default {
-  name: 'SampleTest',
-  props: {
-    msg: String
-  }
-}
 </script>
 
 <style>

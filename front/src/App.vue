@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <SampleTest msg="テスト用のサンプル文字"/>
+    <router-link to="/Sample">サンプルページへ</router-link>
+    <router-link to="/Link">>リストページへ</router-link>
+    <router-view></router-view>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <!--<List /> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import SampleTest from './components/Sample.vue'
 
 export default {
   name: 'App',

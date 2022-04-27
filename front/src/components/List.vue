@@ -1,4 +1,5 @@
 <template>
+  <div>リストページです</div>
 </template>
 
 <script>
