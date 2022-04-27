@@ -9,6 +9,7 @@ WORKDIR /app
 RUN apk update && \
 #    npm install && \
 #    npm install -g yarn && \
-    yarn global add @vue/cli
+    yarn global add @vue/cli && \
+    yarn add vue-router --dev
 #   yarn add express
 #   yarn add global express-generator ←expressコマンドは左記コマンドを入れないと動かない可能性あり(要確認)
